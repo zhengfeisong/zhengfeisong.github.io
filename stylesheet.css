@@ -155,3 +155,5 @@ span.highlight {
 @media(max-width:720px){.publication-page .publications tr{display:flex;flex-direction:column}.publication-page .paper-visual,.publication-page .paper-details{width:100%!important;min-width:0;box-sizing:border-box}.publication-page .paper-visual{padding:16px 0 6px}.publication-page .paper-details{padding:6px 0 16px!important}.publication-page .paper-thumbnail{width:350px;max-width:100%}}
 
 .publication-figure-swap{display:grid;width:350px;max-width:100%;align-items:center}.publication-figure-swap .paper-thumbnail{grid-area:1 / 1;transition:opacity .25s ease}.publication-figure-swap .figure-secondary{opacity:0}.publication-figure-swap:hover .figure-primary,.publication-figure-swap:focus-visible .figure-primary{opacity:0}.publication-figure-swap:hover .figure-secondary,.publication-figure-swap:focus-visible .figure-secondary{opacity:1}@media(prefers-reduced-motion:reduce){.publication-figure-swap .paper-thumbnail{transition:none}}
+
+.profile-links a{display:inline-flex;align-items:center;gap:4px;white-space:nowrap}.profile-links svg{width:14px;height:14px;flex-shrink:0;vertical-align:middle}
