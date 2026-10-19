@@ -166,3 +166,5 @@ span.highlight {
 
 /* Project covers fill the card width and retain their original aspect ratio. */
 .project-card>img,.aeroeye-card>img,.embedded-card>img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+
+.project-column{display:flex;flex-direction:column;gap:24px;min-width:0}.project-column .project-card{width:100%;box-sizing:border-box}
